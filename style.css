@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background: #101011;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+}
+main h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    margin-bottom: 61px;
+}
+main ul li img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-bottom: 16px;
+    transition: 0.7s;
+}
+main ul li p{
+    width: 160px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18.2px;
+    color: #9C9C9C;
+    display: flex;
+    justify-content: center;
+}
+main article{
+    display: flex;
+    justify-content: center;
+}
+.button{
+font-weight: 500;
+font-size: 17px;
+line-height: 23px;
+color: #FFFFFF;
+box-sizing: border-box;
+border: 2.5px solid #FFFFFF;
+border-radius: 8px;
+background-color: #000000;
+padding: 14px 44px;
+margin-top: 100px;
+transition: 0.7s;
+}
+main ul{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+main ul li:hover > img{
+    border: 1px solid #e600ff;
+    transition: 0.7s;
+}
+#perfil:hover{
+    filter: brightness(2);
+}
+main ul li:hover > p{
+    color: #FFFFFF;
+}
+main .button:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 0.7s;
+}
